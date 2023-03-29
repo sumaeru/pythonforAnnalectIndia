@@ -1,0 +1,13 @@
+https://www.linuxtuto.com/how-to-install-postgresql-15-on-debian-11/
+have a look at this link how to configure postgres..
+
+sudo su postgres
+
+type psql test to get connected to the databsase,
+
+
+in the command prompt ensure 
+createdb test to create a database.
+
+
+/dt to see all the tables.

@@ -1,0 +1,25 @@
+virtual enviornment is called smr
+
+pip install -r requirements.txt
+
+folder structures can vary from project to project
+example a web project could have different folder structure
+messaging project could have a different one.
+
+so look at the project and then adapt.
+
+x01myapp.py is the start.. look at the code understand how
+the flow goes to remaining files.
+
+a03websamples folder contains flaskrestful api item example which
+we saw.
+
+a01pythonlanguage
+a02pythonlanguage
+basic python syntax practice examples.. zero architecture..
+a06references contains text file  and official python tutorial pdf..
+
+
+
+
+

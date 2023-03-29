@@ -1,0 +1,45 @@
+ A virtual Environment should be used whenever you work on any Python-based project. It is generally good to have one new virtual environment for every Python-based project you work on. So the dependencies of every project are isolated from the system and each other.
+
+
+ By default, every project on your system will use these same directories to store and retrieve site packages (third-party libraries). How does this matter?
+
+ By default some project will use different versions.. let us project X uses version v1
+ and project Y uses version v2, how do you store the libraries.. virtual environment makes
+ this is possible..
+
+
+ We use a module named virtualenv which is a tool to create isolated Python environments. virtualenv creates a folder that contains all the necessary executables to use the packages that a Python project would need.
+
+pip install virtualenv
+
+virtualenv --version
+
+virtualenv my_name  // create the virtual environment..
+
+
+After running this command, a directory named my_name will be created. This is the directory that contains all the necessary executables to use the packages that a Python project would need. This is where Python packages will be installed. If you want to specify the Python interpreter of your choice, for example, Python 3, it can be done using the following command:
+
+$ virtualenv -p /usr/bin/python3 virtualenv_name
+
+virtualenv -p /usr/bin/python2.7 virtualenv_name
+this will use python2.7...
+
+To activate virtual environment using windows command prompt 
+change directory to your virtual env 
+
+$ cd <envname>
+$ Scripts\activate 
+$ source virtualenv_name/bin/activate
+
+Once the virtual environment is activated, the name of your virtual environment will appear on the left side of the terminal. This will let you know that the virtual environment is currently active. In the image below, venv named virtual environment is active. Now you can install dependencies related to the project in this virtual environment. For example, if you are using Django 1.9 for a project, you can install it like you install other packages.
+
+
+
+
+
+
+
+
+
+ typical steps.
+ 1. check whethre virtual environment is installed or not..

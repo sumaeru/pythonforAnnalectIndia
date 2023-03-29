@@ -1,0 +1,30 @@
+PIP is a package manager for Python packages, or modules if you like.
+
+A package contains all the files you need for a module.
+it can be used to download all the packages
+
+python version 3.4 above pip is already included..
+check the pip version you have 
+pip --version
+
+
+pip install packagename
+
+pip install camelcase
+
+//write the python code
+import camelcase
+
+c = camelcase.CamelCase()
+
+txt = "hello world"
+
+print(c.hump(txt))
+
+pip uninstall camelcase
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+official tutorial links
+https://docs.python.org/3.11/tutorial/index.html
+https://flask.palletsprojects.com/en/2.2.x/quickstart/
+https://docs.python-guide.org/writing/structure/
+read all this, and follow what your project tells.
+
+
+serialization using marshmellow.. if need is there.. please think
+how will you do it..
+
+
+other things on need basis.. if time is there spend time understand
+read the book mythical man month... very old book but still makes sense.
+or read clean code..
+
+
+
+
+try the w3c schools on git
+or 
+https://www.freecodecamp.org/news/git-and-github-for-beginners/
+just to know some idea , find out what your company does
+and do it accordingly..
+
+
+
+github link
+https://github.com/sumaeru/pythonforAnnalectIndia.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

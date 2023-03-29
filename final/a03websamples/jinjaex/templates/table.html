@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="/static/styles.css"/>
+  
+</head>
+<body>
+    <table class="table">
+         <tr class="table__row">
+            {%  for header in headings_hn   %}
+                    <th class="table__header"> {{header}}</th>
+            {%  endfor %}
+         </tr>
+         {%  for row in data_hn   %}
+                <tr class="table__row">
+                    {% for cell in row %}
+                        <td class="table__cell">{{cell}}</td>
+                    {% endfor %}
+                </tr>    
+         {% endfor %}
+
+
+         
+
+
+         
+         
+         
+
+
+
+    </table>
+    
+</body>
+</html>

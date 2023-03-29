@@ -1,0 +1,10 @@
+
+
+install postgressql
+
+sudo apt install postgresql postgresql-contrib
+
+check postgressql whether it is working, 
+sudo systemctl status PostgreSQL
+
+
